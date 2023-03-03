@@ -160,6 +160,9 @@ Make sure you fulfill the pre-requisites above and run some preliminary tests. N
 ### Build (or pull) the required Docker image
 
 Build the required Docker image by running `make test-tools-image` or pull the latest version by issuing `docker pull argoproj/argocd-test-tools`.
+When pulling the image, set the following enviroamnt variables:
+`TEST_TOOLS_NAMESPACE=argoproj`
+`SKIP_TEST_TOOLS_IMAGE=1`
 
 The `Dockerfile` used to build these images can be found at `test/container/Dockerfile`.
 
