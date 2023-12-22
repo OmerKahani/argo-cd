@@ -64,10 +64,19 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-14.14.14.tgz"
   integrity sha512-UHnOPWVWV1z+VV8k6L1HhG7UbGBgIdghqF3l9Ny9ApPghbjICXkUJSd/b9gOgQfjM1r+37cipdw/HJ3F6ICEnQ==
 
-"@types/selenium-webdriver@^4.0.9":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@types/selenium-webdriver/-/selenium-webdriver-4.0.10.tgz"
-  integrity sha512-Xavn3fE+uM2aeIHtefIwpy0zAf2HQOyip/jU7ZR0ailt/B0ww/TJ6yMnfZ5pM0F4+Kx+9AQSnxQio3P5QAl1yQ==
+"@types/selenium-webdriver@^4.1.20":
+  version "4.1.21"
+  resolved "https://registry.yarnpkg.com/@types/selenium-webdriver/-/selenium-webdriver-4.1.21.tgz#79fe31faf9953a4143c3e32944d98d5146bbe185"
+  integrity sha512-QGURnImvxYlIQz5DVhvHdqpYNLBjhJ2Vm+cnQI2G9QZzkWlZm0LkLcvDcHp+qE6N2KBz4CeuvXgPO7W3XQ0Tyw==
+  dependencies:
+    "@types/ws" "*"
+
+"@types/ws@*":
+  version "8.5.10"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.10.tgz#4acfb517970853fa6574a3a6886791d04a396787"
+  integrity sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A==
+  dependencies:
+    "@types/node" "*"
 
 "@types/yauzl@^2.9.1":
   version "2.9.2"
